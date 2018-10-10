@@ -4,37 +4,28 @@
              xmlns:local="clr-namespace:BioApp"
              x:Class="BioApp.MainPage">
 
-    <Grid Padding="50"
-          HeightRequest="10"
-          WidthRequest="10">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-        </Grid.RowDefinitions>
-        <BoxView HeightRequest="10" 
-                 WidthRequest="20" 
-                 BackgroundColor="Red"
-                 Grid.Column="1"
-                 Grid.Row="0">
-        </BoxView>
-        <BoxView HeightRequest="20" 
-                 WidthRequest="20" 
-                 BackgroundColor="Red"
-                 Grid.Column="1"
-                 Grid.Row="1"/>
-        <BoxView HeightRequest="20" 
-                 WidthRequest="20" 
-                 BackgroundColor="Red"
-                 Grid.Column="1"
-                 Grid.Row="2"/>
-
-    </Grid>
-
+    <StackLayout>
+        <Label BackgroundColor="DarkCyan"
+               HeightRequest="70"
+               Text="Drew Ashbacher"
+               FontSize="20"
+               TextColor="White"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"/>
+        <BoxView HeightRequest="80"/>
+        <Button BackgroundColor="DarkCyan"
+                HeightRequest="60"
+                Margin="60,0,60,0"
+                Text="About Me"/>
+        <BoxView HeightRequest="70"/>
+        <Button BackgroundColor="DarkCyan"
+                HeightRequest="60"
+                Margin="60,0,60,0"
+                Text="Skills"/>
+        <BoxView HeightRequest="70"/>
+        <Button BackgroundColor="DarkCyan"
+                HeightRequest="60"
+                Margin="60,0,60,0"
+                Text="Contact Me"/>
+    </StackLayout>
 </ContentPage>
