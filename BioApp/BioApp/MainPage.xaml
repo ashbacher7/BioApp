@@ -27,5 +27,11 @@
                 HeightRequest="60"
                 Margin="60,0,60,0"
                 Text="Contact Me"/>
+        <BoxView HeightRequest="130"/>
+        <Label BackgroundColor="DarkCyan"
+               HeightRequest="20"
+               Text="© Drew Ashbacher, 2018  "
+               HorizontalTextAlignment="End"
+               VerticalOptions="Center"/>
     </StackLayout>
 </ContentPage>
