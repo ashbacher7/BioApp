@@ -4,11 +4,11 @@
              xmlns:local="clr-namespace:BioApp"
              x:Class="BioApp.MainPage">
 
-    <StackLayout>
+    <StackLayout VerticalOptions="Start">
         <Label BackgroundColor="DarkCyan"
                HeightRequest="70"
                Text="Drew Ashbacher"
-               FontSize="20"
+               FontSize="26"
                TextColor="White"
                HorizontalTextAlignment="Center"
                VerticalTextAlignment="Center"/>
@@ -27,11 +27,5 @@
                 HeightRequest="60"
                 Margin="60,0,60,0"
                 Text="Contact Me"/>
-        <BoxView HeightRequest="130"/>
-        <Label BackgroundColor="DarkCyan"
-               HeightRequest="20"
-               Text="© Drew Ashbacher, 2018  "
-               HorizontalTextAlignment="End"
-               VerticalOptions="Center"/>
     </StackLayout>
 </ContentPage>
