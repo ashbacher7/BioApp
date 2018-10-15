@@ -16,16 +16,22 @@
         <Button BackgroundColor="DarkCyan"
                 HeightRequest="60"
                 Margin="60,0,60,0"
-                Text="About Me"/>
+                Text="About Me"
+                x:Name="AboutMeNavigation"
+                Clicked="AboutMeNavigation_Clicked"/>
         <BoxView HeightRequest="70"/>
         <Button BackgroundColor="DarkCyan"
                 HeightRequest="60"
                 Margin="60,0,60,0"
-                Text="Skills"/>
+                Text="Skills"
+                x:Name="SkillsNavigation"
+                Clicked="SkillsNavigation_Clicked"/>
         <BoxView HeightRequest="70"/>
         <Button BackgroundColor="DarkCyan"
                 HeightRequest="60"
                 Margin="60,0,60,0"
-                Text="Contact Me"/>
+                Text="Contact Me"
+                x:Name="ContactMeNavigation"
+                Clicked="ContactMeNavigation_Clicked"/>
     </StackLayout>
 </ContentPage>

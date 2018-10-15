@@ -13,5 +13,20 @@ namespace BioApp
 		{
 			InitializeComponent();
 		}
-	}
+
+        private void AboutMeNavigation_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AboutMe());           
+        }
+
+        private void SkillsNavigation_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Skills());
+        }
+
+        private void ContactMeNavigation_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ContactMe());
+        }
+    }
 }
