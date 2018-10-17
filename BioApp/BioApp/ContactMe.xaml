@@ -5,7 +5,7 @@
     <StackLayout>
         <Label BackgroundColor="DarkCyan"
                HeightRequest="70"
-               Text="Drew Ashbacher"
+               Text="Contact Me"
                FontSize="26"
                TextColor="White"
                HorizontalTextAlignment="Center"
