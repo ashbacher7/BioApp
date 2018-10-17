@@ -10,7 +10,7 @@
                TextColor="White"
                HorizontalTextAlignment="Center"
                VerticalTextAlignment="Center"/>
-        <BoxView HeightRequest="60"/>
+        <BoxView HeightRequest="30"/>
         <Label Text="- "
                TextColor="White"
                FontSize="16"
@@ -35,7 +35,7 @@
                TextColor="White"
                FontSize="16"
                HorizontalTextAlignment="Start"
-               Margin="60,5,0,20"/>
+               Margin="60,5,0,30"/>
         <Image Source="IMG_1248.JPG"
                HorizontalOptions="Center"
                HeightRequest="300"/>
