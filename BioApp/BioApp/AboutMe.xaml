@@ -11,5 +11,30 @@
                HorizontalTextAlignment="Center"
                VerticalTextAlignment="Center"/>
         <BoxView HeightRequest="80"/>
+        <Label Text="- "
+               TextColor="White"
+               FontSize="16"
+               HorizontalTextAlignment="Start"
+               Margin="60,0,0,0"/>
+        <Label Text="- "
+               TextColor="White"
+               FontSize="16"
+               HorizontalTextAlignment="Start"
+               Margin="60,0,0,0"/>
+        <Label Text="- "
+               TextColor="White"
+               FontSize="16"
+               HorizontalTextAlignment="Start"
+               Margin="60,0,0,0"/>
+        <Label Text="- "
+               TextColor="White"
+               FontSize="16"
+               HorizontalTextAlignment="Start"
+               Margin="60,0,0,0"/>
+        <Label Text="- "
+               TextColor="White"
+               FontSize="16"
+               HorizontalTextAlignment="Start"
+               Margin="60,0,0,0"/>
     </StackLayout>
 </ContentPage>
