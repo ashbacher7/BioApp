@@ -10,7 +10,12 @@
                TextColor="White"
                HorizontalTextAlignment="Center"
                VerticalTextAlignment="Center"/>
-        <BoxView HeightRequest="80"/>
+        <BoxView HeightRequest="60"/>
+        <Label Text="- "
+               TextColor="White"
+               FontSize="16"
+               HorizontalTextAlignment="Start"
+               Margin="60,0,0,0"/>
         <Label Text="- "
                TextColor="White"
                FontSize="16"
@@ -30,13 +35,9 @@
                TextColor="White"
                FontSize="16"
                HorizontalTextAlignment="Start"
-               Margin="60,5,0,0"/>
-        <Label Text="- "
-               TextColor="White"
-               FontSize="16"
-               HorizontalTextAlignment="Start"
-               Margin="60,5,0,0"/>
-        <BoxView HeightRequest="80"/>
-        <Image Source=""/>
+               Margin="60,5,0,20"/>
+        <Image Source="IMG_1248.JPG"
+               HorizontalOptions="Center"
+               HeightRequest="300"/>
     </StackLayout>
 </ContentPage>
