@@ -36,5 +36,7 @@
                FontSize="16"
                HorizontalTextAlignment="Start"
                Margin="60,0,0,0"/>
+        <BoxView HeightRequest="80"/>
+        <Image Source=""/>
     </StackLayout>
 </ContentPage>
