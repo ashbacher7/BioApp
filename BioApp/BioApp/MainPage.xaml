@@ -2,16 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:BioApp"
-             x:Class="BioApp.MainPage">
+             x:Class="BioApp.MainPage"
+             Title="Drew Ashbacher">
 
     <StackLayout VerticalOptions="Start">
-        <Label BackgroundColor="DarkCyan"
-               HeightRequest="70"
-               Text="Drew Ashbacher"
-               FontSize="26"
-               TextColor="White"
-               HorizontalTextAlignment="Center"
-               VerticalTextAlignment="Center"/>
         <BoxView HeightRequest="80"/>
         <Button BackgroundColor="DarkCyan"
                 HeightRequest="60"

@@ -11,7 +11,7 @@ namespace BioApp
 	{
 		public MainPage()
 		{
-			InitializeComponent();
+            InitializeComponent();
 		}
 
         private void AboutMeNavigation_Clicked(object sender, EventArgs e)
