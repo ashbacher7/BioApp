@@ -7,14 +7,14 @@
 
     <StackLayout VerticalOptions="Start">
         <BoxView HeightRequest="1"
-                 BackgroundColor="White"
+                 BackgroundColor="DarkCyan"
                  Margin="20,50,20,10"/>
         <Label Text="Welcome to my Biography App!"
                HorizontalTextAlignment="Center"
                FontSize="20"
                Margin="40,0,40,0"/>
         <BoxView HeightRequest="1"
-                 BackgroundColor="White"
+                 BackgroundColor="DarkCyan"
                  Margin="20,10,20,0"/>
         <BoxView HeightRequest="60"/>
         <Button BackgroundColor="DarkCyan"
