@@ -22,16 +22,20 @@ namespace BioApp
             if (string.IsNullOrEmpty(nameEntry.Text))
             {
                 DisplayAlert("Error", "Please enter a name.", "Ok");
+                return;
             }
             if (string.IsNullOrEmpty(emailEntry.Text))
             {
                 DisplayAlert("Error", "Please enter an email address.", "Ok");
+                return;
             }
             if (string.IsNullOrEmpty(messageEditor.Text))
             {
                 DisplayAlert("Error", "Please enter a message.", "Ok");
+                return;
             }
             DisplayAlert("Alert", "Your message has been sent!", "Ok");
+            return;
         }
     }
 }
