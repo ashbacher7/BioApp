@@ -9,12 +9,29 @@ using Xamarin.Forms.Xaml;
 
 namespace BioApp
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class ContactMe : ContentPage
-	{
-		public ContactMe ()
-		{
-			InitializeComponent ();
-		}
-	}
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class ContactMe : ContentPage
+    {
+        public ContactMe()
+        {
+            InitializeComponent();
+        }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(nameEntry.Text))
+            {
+                DisplayAlert("Error", "Please enter a name.", "Ok");
+            }
+            if (string.IsNullOrEmpty(emailEntry.Text))
+            {
+                DisplayAlert("Error", "Please enter an email address.", "Ok");
+            }
+            if (string.IsNullOrEmpty(messageEditor.Text))
+            {
+                DisplayAlert("Error", "Please enter a message.", "Ok");
+            }
+            DisplayAlert("Alert", "Your message has been sent!", "Ok");
+        }
+    }
 }

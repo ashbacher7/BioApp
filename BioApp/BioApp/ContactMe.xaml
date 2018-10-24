@@ -4,6 +4,29 @@
              x:Class="BioApp.ContactMe"
              Title="Contact Me">
     <StackLayout>
-        <BoxView HeightRequest="80"/>
+        <BoxView HeightRequest="40"/>
+        <Label Text="Please fill out the form below then select Submit."
+               FontSize="22"
+               Margin="60,0,60,0"
+               HorizontalTextAlignment="Center"/>
+        <BoxView HeightRequest="30"/>
+        <Entry Placeholder="Name"
+               x:Name="nameEntry"
+               Margin="40,0,40,0"/>
+        <BoxView HeightRequest="20"/>
+        <Entry Placeholder="Email"
+               x:Name="emailEntry"
+               Margin="40,0,40,0"/>
+        <BoxView HeightRequest="0"/>
+        <Label Text="Enter message below."
+               Margin="40,0,40,0"/>
+        <Editor HeightRequest="100"
+                x:Name="messageEditor"
+                Margin="40,0,40,0"/>
+        <BoxView HeightRequest="40"/>
+        <Button Text="Submit"
+                Margin="40,0,40,0"
+                BackgroundColor="DarkCyan"
+                Clicked="Button_Clicked"/>
     </StackLayout>
 </ContentPage>
