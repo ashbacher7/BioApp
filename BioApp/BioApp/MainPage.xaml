@@ -4,41 +4,35 @@
              xmlns:local="clr-namespace:BioApp"
              x:Class="BioApp.MainPage"
              Title="Drew Ashbacher">
-
-    <StackLayout VerticalOptions="Start">
-        <BoxView HeightRequest="1"
-                 BackgroundColor="DarkCyan"
-                 Margin="20,50,20,10"/>
-        <Label Text="Welcome to my Biography App!"
+    <ScrollView>
+        <StackLayout VerticalOptions="Start"
+                     Padding="20"
+                     Spacing="20">
+            <BoxView HeightRequest="1"
+                 BackgroundColor="DarkCyan"/>
+            <Label Text="Welcome to my Biography App!"
                HorizontalTextAlignment="Center"
-               FontSize="20"
-               Margin="40,0,40,0"/>
-        <BoxView HeightRequest="1"
-                 BackgroundColor="DarkCyan"
-                 Margin="20,10,20,0"/>
-        <BoxView HeightRequest="60"/>
-        <Button BackgroundColor="DarkCyan"
+               FontSize="20"/>
+            <BoxView HeightRequest="1"
+                 BackgroundColor="DarkCyan"/>
+            <Button BackgroundColor="DarkCyan"
                 HeightRequest="60"
-                Margin="60,0,60,0"
                 Text="About Me"
                 FontSize="18"
                 x:Name="AboutMeNavigation"
                 Clicked="AboutMeNavigation_Clicked"/>
-        <BoxView HeightRequest="70"/>
-        <Button BackgroundColor="DarkCyan"
+            <Button BackgroundColor="DarkCyan"
                 HeightRequest="60"
-                Margin="60,0,60,0"
                 Text="Skills"
                 FontSize="18"
                 x:Name="SkillsNavigation"
                 Clicked="SkillsNavigation_Clicked"/>
-        <BoxView HeightRequest="70"/>
-        <Button BackgroundColor="DarkCyan"
+            <Button BackgroundColor="DarkCyan"
                 HeightRequest="60"
-                Margin="60,0,60,0"
                 Text="Contact Me"
                 FontSize="18"
                 x:Name="ContactMeNavigation"
                 Clicked="ContactMeNavigation_Clicked"/>
-    </StackLayout>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

@@ -19,10 +19,16 @@ namespace BioApp
 			InitializeComponent ();
 
             this.SkillsList = new ObservableCollection<string>();
-            this.SkillsList.Add("C#");
-            this.SkillsList.Add("");
+            this.SkillsList.Add("Experienced in C++ and Visual Basic");
+            this.SkillsList.Add("Microsoft Excel 2013 Certified");
+            this.SkillsList.Add("Quick learner.");
+            this.SkillsList.Add("Work well in teams.");
+            this.SkillsList.Add("Work until the job is completed.");
 
-            skillsListView.ItemSource = this.SkillsList;
+
+            skillsListView.ItemsSource = this.SkillsList;
+
+           
 
         }        
     }

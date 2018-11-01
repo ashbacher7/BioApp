@@ -3,10 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BioApp.Skills"
              Title="Skills">
-    <StackLayout Padding="20"
+  <ScrollView>
+  <StackLayout Padding="20"
                  Spacing="20">
-        <Label Text="My Skills"
-               HorizontalTextAlignment="Center"/>
-        <ListView x:Name="skillsListView"/>
-    </StackLayout>
+    <Label Text="My Skills"
+           HorizontalTextAlignment="Center"/>
+    <ListView x:Name="skillsListView"/>
+  </StackLayout>
+  </ScrollView>
 </ContentPage>
